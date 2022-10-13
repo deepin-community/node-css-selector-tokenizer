@@ -1,0 +1,4 @@
+# False positive: data
+source-is-missing lib/uni-regexp.js line length is 732 characters (>512)
+source-contains-prebuilt-javascript-object lib/uni-regexp.js line length is 732 characters (>512)
+very-long-line-length-in-source-file lib/uni-regexp.js line length is 736 characters (>512)

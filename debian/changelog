@@ -1,0 +1,47 @@
+node-css-selector-tokenizer (0.7.3+~cs4.1.2-1) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 13
+  * Use dh-sequence-nodejs
+  * New upstream version 0.7.3+~cs4.1.2
+  * Remove dependency to node-regexpu-core
+  * Add lintian overrides
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 05 Oct 2020 10:50:52 +0200
+
+node-css-selector-tokenizer (0.7.2+~cs4.1.2-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Submit.
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.5.0
+  * Use uscan checksum
+  * New upstream version 0.7.2+~cs4.1.2
+    really: 0.7.2+~3.0.0+~1.1.2
+  * Drop patch now included in upstream
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 25 May 2020 13:00:28 +0200
+
+node-css-selector-tokenizer (0.7.1-1) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.1
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * New upstream version 0.7.1
+  * Require node-regexpu-core ≥ 4.6.0+ds-2
+  * Add patch to fix test for regjsparser ≥ 0.6
+  * Update copyright
+
+ -- Xavier Guimard <yadd@debian.org>  Sun, 05 Jan 2020 07:18:43 +0100
+
+node-css-selector-tokenizer (0.7.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #888293)
+
+ -- Pirate Praveen <praveen@debian.org>  Wed, 24 Jan 2018 23:55:55 +0530

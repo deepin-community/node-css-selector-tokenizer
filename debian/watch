@@ -1,0 +1,17 @@
+version=4
+opts=\
+dversionmangle=s/\+(debian|dfsg|ds|deb)(\.\d+)?$//,\
+filenamemangle=s/.*\/v?([\d\.-]+)\.tar\.gz/node-css-selector-tokenizer-$1.tar.gz/ \
+ https://github.com/css-modules/css-selector-tokenizer/tags .*/archive/v?([\d\.]+).tar.gz group
+
+opts=\
+component=cssesc,\
+dversionmangle=auto,\
+filenamemangle=s/.*\/v?([\d\.-]+)\.tar\.gz/node-cssesc-$1.tar.gz/ \
+ https://github.com/mathiasbynens/cssesc/tags .*/archive/v?([\d\.]+).tar.gz checksum
+
+opts=\
+component=fastparse,\
+dversionmangle=auto,\
+filenamemangle=s/.*\/v?([\d\.-]+)\.tar\.gz/node-fastparse-$1.tar.gz/ \
+ https://github.com/webpack/fastparse/tags .*/archive/v?([\d\.]+).tar.gz checksum

@@ -1,0 +1,27 @@
+Source: node-css-selector-tokenizer
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Section: javascript
+Testsuite: autopkgtest-pkg-nodejs
+Priority: optional
+Build-Depends: debhelper-compat (= 13)
+ , dh-sequence-nodejs
+ , mocha <!nocheck>
+Standards-Version: 4.5.0
+Homepage: https://github.com/css-modules/css-selector-tokenizer
+Vcs-Git: https://salsa.debian.org/js-team/node-css-selector-tokenizer.git
+Vcs-Browser: https://salsa.debian.org/js-team/node-css-selector-tokenizer
+Rules-Requires-Root: no
+
+Package: node-css-selector-tokenizer
+Architecture: all
+Provides: ${nodejs:Provides}
+Depends: ${misc:Depends}
+ , nodejs
+Description: Parses and stringifies CSS selectors
+ This library is a dependency of css-loader webpack plugin. Webpack takes code
+ targeted at node.js and makes it run in the browser. Node.js comes with API of
+ its own that is not available in the browsers. Webpack exposes this code to
+ programs that are unaware they are running in a browser.
+ .
+ Node.js is an event-based server-side JavaScript engine.

@@ -1,0 +1,2 @@
+#mocha `ls test/*|grep -v test/stringify.js`
+mocha
